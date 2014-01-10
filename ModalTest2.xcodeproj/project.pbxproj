@@ -21,6 +21,7 @@
 		00B1521B187FBCEA0036182C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B151FD187FBCE90036182C /* UIKit.framework */; };
 		00B15223187FBCEA0036182C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00B15221187FBCEA0036182C /* InfoPlist.strings */; };
 		00B15225187FBCEA0036182C /* ModalTest2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B15224187FBCEA0036182C /* ModalTest2Tests.m */; };
+		00B15230187FBF520036182C /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B1522F187FBF520036182C /* ModalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		00B15220187FBCEA0036182C /* ModalTest2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalTest2Tests-Info.plist"; sourceTree = "<group>"; };
 		00B15222187FBCEA0036182C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00B15224187FBCEA0036182C /* ModalTest2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalTest2Tests.m; sourceTree = "<group>"; };
+		00B1522E187FBF520036182C /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		00B1522F187FBF520036182C /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				00B1520F187FBCEA0036182C /* ViewController.m */,
 				00B15211187FBCEA0036182C /* Images.xcassets */,
 				00B15200187FBCE90036182C /* Supporting Files */,
+				00B1522E187FBF520036182C /* ModalViewController.h */,
+				00B1522F187FBF520036182C /* ModalViewController.m */,
 			);
 			path = ModalTest2;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B15230187FBF520036182C /* ModalViewController.m in Sources */,
 				00B15210187FBCEA0036182C /* ViewController.m in Sources */,
 				00B1520A187FBCEA0036182C /* AppDelegate.m in Sources */,
 				00B15206187FBCE90036182C /* main.m in Sources */,
